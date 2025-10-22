@@ -7,7 +7,7 @@ import path from "path";
 // Example: agar tumhara repo URL hai https://username.github.io/apping-main/
 // to base: "/apping-main/"
 export default defineConfig(() => ({
-  base: "/apping-main/", // ✅ ye line sabse important hai (change repo name accordingly)
+  base: "/apping/", // ✅ ye line sabse important hai (change repo name accordingly)
 
   server: {
     host: "::",
@@ -20,3 +20,4 @@ export default defineConfig(() => ({
     },
   },
 }));
+
